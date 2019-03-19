@@ -129,7 +129,7 @@
   		}  else {
   			  //document.getElementById('campo_error_pais').innerHTML = "";
   		    document.getElementById('selector').classList.add('campo_validado');
-          document.getElementById('campo_error_pais').innerHTML ="País válidado";
+          document.getElementById('campo_error_pais').innerHTML ="País validado";
           document.getElementById('campo_error_pais').style.color="green";
     	
   	    }
@@ -247,7 +247,6 @@
           document.getElementById("digitosIntroducidos").style.color = "green";
          
         }
-
     }
 
     // metodo comun para usarlo dentro de varios metodos para mostrar el texto, Debe rellenar este campo...
